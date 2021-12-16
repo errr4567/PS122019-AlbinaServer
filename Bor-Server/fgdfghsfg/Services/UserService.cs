@@ -65,7 +65,7 @@ namespace Albina.BusinesLogic.Services
             await _context.SaveChangesAsync();
 
             return await ConvertToUserInformation(newUser);
-
+                
 
         }
 
